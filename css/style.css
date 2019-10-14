@@ -9,12 +9,6 @@ h1, h2 {
   margin: 2rem;
 }
 
-/* Container */
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 /* Ligne */
 .row {
   border: 2px solid red;
@@ -38,6 +32,11 @@ h1, h2 {
 
 /* Small devices <768px */
 @media screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 5px;
+  }
+
   .col-sm-2 {
     /* 140px / 960px */
     width: 14.5833334%;
@@ -62,6 +61,11 @@ h1, h2 {
 
 /* Medium devices >768px */
 @media screen and (min-width: 768px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
   .col-md-2 {
     /* 140px / 960px */
     width: 14.5833334%;
