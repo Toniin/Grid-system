@@ -4,9 +4,17 @@ body {
 }
 
 h1, h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+ul {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+}
+
+li {
+  padding: 5px;
 }
 
 /* Ligne */
@@ -28,8 +36,7 @@ h1, h2 {
   background-color: lightslategray;
 }
 
-/* MEDIA QUERIES */
-
+    /* MEDIA QUERIES */
 /* Small devices <768px */
 @media screen and (max-width: 768px) {
   .container {
